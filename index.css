@@ -20,3 +20,28 @@ header {
   color: white;
   margin-left: 20px;
 }
+
+footer {
+  color: white;
+  background-color: #ce5230;
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 15px;
+}
+
+.footer-title {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.footer-right {
+  margin-right: 300px;
+}
+
+.footer-right a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
