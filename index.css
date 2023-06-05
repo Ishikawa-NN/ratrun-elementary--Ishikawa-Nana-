@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ce5230;
+  padding: 30px 15px;
+}
+
+.title {
+  color: white;
+}
+
+.menu {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
