@@ -10,6 +10,7 @@ header {
   padding: 30px 15px;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 .cover {
@@ -94,7 +95,8 @@ header {
 
 .self-intro2 {
   display: flex;
-  gap: 10px;
+  /* gap: 20px; */
+  justify-content: space-between
 }
 
 .self-intro2 img {
@@ -108,51 +110,61 @@ header {
   margin-bottom: 30px;
 }
 
+.self-intro-detail p {
+  text-align: left;
+}
+
+.self-intro-detail {
+  width: 30%;
+  text-align: center;
+}
+
+
+
 .career {
   display: flex;
   column-gap: 5px;
 }
 
-.career-text {}
-
-.career-text p {
+.career-text {
   font-size: 36px;
   font-weight: bold;
   width: 100px;
 
 }
 
-.career p {
+/* .career p {
   color: #2e2d2de5;
   text-align: center;
   width: 100px;
 
-}
+} */
 
 .time-tree {
   position: relative;
   background-image: url(img/time-tree.e774d4e.png);
   background-size: 800px;
-  background-position: right;
+  background-position: center;
   width: 700px;
   height: 850px;
   background-repeat: no-repeat;
-  margin: 20px 0 0 0;
+  /* margin: 20px 0 0 0; */
 }
 
 .tree-font p {
   width: 130px;
   font-size: 16px;
   font-weight: bold;
-  margin-top: 0;
-  text-align: left;
+  /* margin-top: 0; */
+  /* text-align: left 50%; */
+  /* margin-left: 60px; */
 }
 
 .best8 {
   position: absolute;
   top: 100px;
-  left: 50px;
-  padding-left: 5px;
+  left: 50%;
+  margin-left: -225px;
 }
 
 .best8 p {
@@ -162,7 +174,8 @@ header {
 .university {
   position: absolute;
   top: 290px;
-  left: 400px;
+  left: 50%;
+  margin-left: 120px;
 }
 
 .university p {
@@ -172,7 +185,8 @@ header {
 .part-time {
   position: absolute;
   top: 460px;
-  left: 50px;
+  left: 50%;
+  margin-left: -225px;
 }
 
 .part-time p {
@@ -182,7 +196,8 @@ header {
 .flont {
   position: absolute;
   top: 660px;
-  left: 400px;
+  left: 50%;
+  margin-left: 120px;
 }
 
 .flont p {
@@ -194,12 +209,13 @@ header {
 }
 
 .study {
-  margin: 80px 0 0 0;
+  /* margin: 80px 0 0 0; */
+  display: block;
 }
 
 .up {
-  margin: 80px 0 0 0;
-
+  /* margin: 80px 0 0 0; */
+  display: block;
 }
 
 footer {
