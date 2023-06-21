@@ -36,20 +36,24 @@ header {
   padding: 50px;
 }
 
+.top {
+  text-align: center;
+}
+
 .top h2 {
   color: white;
   font-size: 23px;
   font-family: cursive;
   font-weight: normal;
-  text-align: center;
+  /* text-align: center; */
   margin: 0 0 60px 0;
 }
 
 .main-img {
   width: 510px;
   height: 520px;
-  margin-left: 440px;
   margin-bottom: 10px;
+
 }
 
 .self-intro1 {
@@ -204,6 +208,10 @@ header {
   color: #285A6D;
 }
 
+.img2 {
+  margin: initial;
+}
+
 .career img {
   width: 300px;
 }
@@ -241,4 +249,50 @@ footer {
   font-weight: bold;
   text-decoration: none;
   color: white;
+}
+
+@media (max-width:959px) {
+  .self-intro1 {
+    display: block;
+    text-align: center;
+  }
+
+  .self-intro2 {
+    display: block;
+    text-align: center;
+  }
+
+  .self-intro-detail {
+    width: 100%;
+  }
+
+  .table {
+    width: initial;
+  }
+
+  .table table {
+    color: #ce5230;
+    background-color: initial;
+    border: initial;
+  }
+
+
+  .time-tree {
+    width: initial;
+  }
+
+  .career {
+    display: block;
+    text-align: center;
+  }
+
+  .study,
+  .up {
+    margin: 0 auto;
+  }
+
+  .footer-right {
+    margin-right: initial;
+  }
+
 }
